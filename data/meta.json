@@ -1,0 +1,38 @@
+{
+  "name": "Aseem Asthana",
+  "siteId": "aseem.us",
+  "title": "Aseem's website",
+  "description": "Personal website for Aseem Asthana",
+  "productionUrl": "https://aseem.us",
+  "datePublished": "2022-05-20",
+  "dateUpdated": "2022-05-20",
+  "defaultImage": "/img/pages/home/dashboard.jpg",
+  "keywords": [
+    "aseem asthana"
+  ],
+  "ga4": {
+    "prod": "G-QK7QBK16R6",
+    "dev": "G-GTPX4P98KP"
+  },
+  "author": {
+    "name": "Aseem Asthana",
+    "email": "aseem@aseem.us"
+  },
+  "social": {
+    "twitter": "https://twitter.com/homekasaapp/",
+    "twitterHandle": "@homekasaapp",
+    "youtube": "https://www.youtube.com/channel/UCc6sQlJitZfrVyNg3Yr5hHA/",
+    "linkedIn": "https://www.linkedin.com/company/homekasa/",
+    "pinterest": "https://www.pinterest.com/homekasaapp/",
+    "facebook": "https://www.facebook.com/HomeKasaApp/"
+  },
+  "api": {
+    "pageLimit": 10
+  },
+  "constants": {
+    "WORDS_PER_MINUTE": 1500
+  },
+  "paths": {
+    "BLOGS": "facade/content/blog"
+  }
+}

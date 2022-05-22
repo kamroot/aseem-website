@@ -1,0 +1,22 @@
+[
+  {
+    "path": "legal/privacy",
+    "layoutOptions": {
+      "toc": false,
+      "relatedArticles": false,
+      "articleStats": false,
+      "showImage": false
+    },
+    "mdxFile": "facade/content/legal/privacy.mdx"
+  },
+  {
+    "path": "legal/terms-of-service",
+    "layoutOptions": {
+      "toc": false,
+      "relatedArticles": false,
+      "articleStats": false,
+      "showImage": false
+    },
+    "mdxFile": "facade/content/legal/terms-of-service.mdx"
+  }
+]

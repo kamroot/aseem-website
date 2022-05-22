@@ -1,0 +1,148 @@
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+
+@tailwind utilities;
+
+body {
+  @apply p-0;
+  @apply min-h-screen;
+  @apply min-w-full;
+  @apply overflow-x-hidden;
+  @apply bg-fixed;
+
+  background-color: #eee;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-headings;
+}
+
+h1 {
+  color: black;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 3rem;
+  @apply font-sans;
+}
+
+h2 {
+  color: gray;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 2rem;
+  @apply: font-sans;
+}
+
+h3 {
+  font-size: 24px;
+  padding-top: 16px;
+}
+
+a {
+  transition: color 0.2s;
+  color: rebeccapurple;
+  text-decoration: none;
+}
+
+.prose a {
+  color: blue;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.prose a:hover {
+  text-decoration: none;
+  color: #ff4080;
+  font-weight: 500;
+}
+.top-skew {
+  @apply h-32;
+  @apply bg-white;
+  @apply dark:bg-gray-800;
+  @apply -mb-28;
+  @apply transition-all;
+
+  position: relative;
+  z-index: 1;
+  grid-column: 1 / -1;
+}
+.top-skew:after {
+  @apply h-20;
+  @apply xl:h-32;
+  @apply transition-all;
+
+  background: inherit;
+  top: 0;
+  content: '';
+  display: block;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(3deg);
+  transform-origin: 100% 0;
+  z-index: -1;
+}
+
+.bottom-skew {
+  @apply h-32;
+  @apply bg-white;
+  @apply dark:bg-gray-800;
+  @apply mb-32;
+  @apply -mt-28;
+
+  position: relative;
+  z-index: 1;
+  grid-column: 1 / -1;
+}
+.bottom-skew:after {
+  @apply h-20;
+  @apply xl:h-32;
+
+  background: inherit;
+  bottom: 0;
+  content: '';
+  display: block;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(-3deg);
+  transform-origin: 100%;
+  z-index: -1;
+}
+
+/* purgecss start ignore */
+.content-positioning p,
+.content-positioning ol,
+.content-positioning ul,
+.content-positioning h1,
+.content-positioning h2,
+.content-positioning h3,
+.content-positioning h4,
+.content-positioning h5,
+.content-positioning h6 {
+  @apply col-start-3;
+}
+
+.content-positioning table,
+.content-positioning pre,
+.content-positioning div,
+.content-positioning blockquote {
+  @apply col-start-2;
+  @apply col-end-5;
+}
+
+.content-positioning img {
+  @apply col-start-1;
+  @apply col-end-6;
+  @apply mx-auto;
+}
+
+/* purgecss end ignore */
