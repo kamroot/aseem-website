@@ -18,5 +18,15 @@
       "showImage": false
     },
     "mdxFile": "facade/content/legal/terms-of-service.mdx"
+  },
+  {
+    "path": "essays/why-nobody-is-happy-with-your-roadmap",
+    "layoutOptions": {
+      "toc": false,
+      "relatedArticles": false,
+      "articleStats": false,
+      "showImage": false
+    },
+    "mdxFile": "facade/content/essays/why-nobody-is-happy-with-your-roadmap.mdx"
   }
 ]
