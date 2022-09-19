@@ -34,6 +34,17 @@ export const HomePage = () => {
           Feature prioritization and updating roadmaps are two common bugbears for product managers – experienced and
           new alike! I talk to a lot of product managers and they always exclaim that the sales team does not understand
           the roadmap or that engineering is complaining that they don’t know what to build.
+          <Link href="essays/why-do-we-need-cdbcs">
+            <a>
+              <H2>
+                Why do we need Central Bank Digital Currencies (CDBCs) when we already have online banking and digital
+                payments?
+              </H2>
+            </a>
+          </Link>
+          Feature prioritization and updating roadmaps are two common bugbears for product managers – experienced and
+          new alike! I talk to a lot of product managers and they always exclaim that the sales team does not understand
+          the roadmap or that engineering is complaining that they don’t know what to build.
         </div>
       </Layout>
     </>

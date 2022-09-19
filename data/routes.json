@@ -28,5 +28,15 @@
       "showImage": false
     },
     "mdxFile": "facade/content/essays/why-nobody-is-happy-with-your-roadmap.mdx"
+  },
+  {
+    "path": "essays/why-do-we-need-cdbcs",
+    "layoutOptions": {
+      "toc": false,
+      "relatedArticles": false,
+      "articleStats": false,
+      "showImage": false
+    },
+    "mdxFile": "facade/content/essays/why-do-we-need-cdbcs.mdx"
   }
 ]

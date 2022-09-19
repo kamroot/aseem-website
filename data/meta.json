@@ -7,12 +7,10 @@
   "datePublished": "2022-05-20",
   "dateUpdated": "2022-05-20",
   "defaultImage": "/img/pages/home/dashboard.jpg",
-  "keywords": [
-    "aseem asthana"
-  ],
+  "keywords": ["aseem asthana"],
   "ga4": {
-    "prod": "G-QK7QBK16R6",
-    "dev": "G-GTPX4P98KP"
+    "prod": "G-G8WHGEM2LC",
+    "dev": "G-2D8FSSPZCV"
   },
   "author": {
     "name": "Aseem Asthana",
