@@ -1,0 +1,42 @@
+[
+  {
+    "path": "legal/privacy",
+    "layoutOptions": {
+      "toc": false,
+      "relatedArticles": false,
+      "articleStats": false,
+      "showImage": false
+    },
+    "mdxFile": "config/content/legal/privacy.mdx"
+  },
+  {
+    "path": "legal/terms-of-service",
+    "layoutOptions": {
+      "toc": false,
+      "relatedArticles": false,
+      "articleStats": false,
+      "showImage": false
+    },
+    "mdxFile": "config/content/legal/terms-of-service.mdx"
+  },
+  {
+    "path": "essays/why-nobody-is-happy-with-your-roadmap",
+    "layoutOptions": {
+      "toc": false,
+      "relatedArticles": false,
+      "articleStats": false,
+      "showImage": false
+    },
+    "mdxFile": "config/content/essays/why-nobody-is-happy-with-your-roadmap/index.mdx"
+  },
+  {
+    "path": "essays/why-do-we-need-cdbcs",
+    "layoutOptions": {
+      "toc": false,
+      "relatedArticles": false,
+      "articleStats": false,
+      "showImage": false
+    },
+    "mdxFile": "config/content/essays/why-do-we-need-cdbcs/index.mdx"
+  }
+]
